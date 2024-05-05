@@ -10,7 +10,7 @@ const getAdvice = async () => {
       document.getElementById('advice').style.animation = "fadeIn 0.5s";
       const timerId = setTimeout(() => {
         document.getElementById('advice').style.animation = "none";
-      }, 3000)
+      }, 1000)
       
     }
   }catch(error){
