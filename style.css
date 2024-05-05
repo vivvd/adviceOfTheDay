@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Notable;
+
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    
+}
+
+#logo{
+    font-family: Abril;
+}
+
+#advice{
+    font-size: 7rem;
+}
+
+#update{
+    margin: 2rem 0rem;
+    font-size: 0.9rem;
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    transition: all 1s linear;
+}
+
+#update:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+main{
+    margin: 20px 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 229, 245);
+}
+
+
+@media screen and (max-width: 1024px) {
+    #advice{
+        font-size: 6rem;
+
+    }
+}
+
+@media screen and (max-width: 950px) {
+        #advice{
+            font-size: 5rem;
+            text-align:center;
+        }
+}
+    
+@media screen and (max-width: 650px) {
+        #advice{
+            font-size: 3rem;
+        }    
+}
+    
+@media screen and (max-width: 480px) {
+        #advice{
+            font-size: 2rem;
+        }
+    
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
