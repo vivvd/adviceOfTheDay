@@ -1,6 +1,6 @@
 # Advice of the Day
 
-Welcome to the **Advice of the Day** repository! This project is a single-page website that provides a random piece of advice each day. By clicking a button, users can fetch and display a new advice snippet from the [Advice Slip API](https://api.adviceslip.com/).
+Welcome to the **Advice of the Day** repository! This project is a single-page website that provides a piece of advice each day. By clicking a button, users can fetch and display a new advice snippet from the [Advice Slip API](https://api.adviceslip.com/).
 
 ## Features
 
