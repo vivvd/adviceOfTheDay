@@ -13,6 +13,7 @@ Welcome to the **Advice of the Day** repository! This project is a single-page w
 You can view a live demo of the website [here](https://vivvd.github.io/adviceOfTheDay/).
 
 ## File structure
+
 adviceOfTheDay/
 ├── index.html    # The main HTML file
 ├── styles.css    # CSS file for styling
